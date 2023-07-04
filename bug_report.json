@@ -1,1 +1,16 @@
-
+{
+  "Title": "(Heisenbug) App Store is opened on any instrument's page when clicking button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)]",
+  "Precondition": "the user is authorized",
+  "Steps to reproduce": [
+    "1. Navigate to capital.com",
+    "2. Click menu section [Markets]",
+    "3. Scroll down to the widget 'We offer one-click trading experience with 3,700+ world-renowned markets.'", 
+    "4. Click on any instrument's link",
+    "5. Click button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)]"
+  ],
+  "Expected result": "Trading Platform is opened",
+  "Actual result": "App Store is opened",
+  "Severity": "Major",
+  "Environment": "Windows 11, Chrome 114",
+  "Attachments": "link"
+}
